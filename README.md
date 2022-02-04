@@ -1,3 +1,3 @@
 # Calculadora-com-HTML-CSS-Js
 
-<img src="calculator.png">
+<img src="calculator.PNG">
