@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Calculadora - Online</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,initial-scale=1.0">
+    <meta name="description" content="Você pode fazer cálculos de qualquer operação nesta calculadora online">
+    <meta name="author" content="Lucas">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+<header>
+    <h1>Calculadora Online</h1><br />
+    <h3>Basta pôr os números que deseja fazer a operação em cada campo, escolher o tipo de operação e clicar no botão <mark>Calcular</mark>.</h3>
+</header>
+
+<main>
+    <section>
+    <div class="form">
+        <input type="number" id="number1" placeholder="Coloque o primeiro número">
+        <input type="number" id="number2" placeholder="Coloque o segundo número">
+        <select id="selector">
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">x</option>
+            <option value="/">/</option>
+        </select>
+
+        <button class="button" onclick="calcular()">CALCULAR</button>
+    </div>
+
+    <div id="result-box">
+        <h3>Resultado: </h3><br /><br />
+    </div>
+    </section> 
+</main>
+
+    <div class="footer">
+    <p style="width:700px">Obrigado por usar a Calculadora Online 😀</p>
+    <a style="float:right; font-size:36px;color:var(--color3); margin-right:10px" href="#"><i onclick="myFunction()" class="fa fa-lightbulb-o"></i></a>
+    </div>
+<script src="scripts/script.js"></script>
+</body>
+
+</html>
